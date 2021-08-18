@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <main>
+        <header>
+            <h1 class="jumbotron text-center">UFC Fighter Database</h1>
+        </header>
+        <h3>Introduction</h3>
+        <p>Welcome to my site! This site is meant for the viewing and downloading of the UFC fighter database. In addition to the statistics kept by the UFC on each fighter, 
+          I also have created my own variable called Classification. A summary of all variables is included below. The source of all the data can be found <a href="http://ufcstats.com/statistics/fighters">here</a>.
+        </p>
+        <h3>Variables/Columns Description</h3>
+        <ul>
+          <li> <u>Name</u>: Name of an individual UFC fighter</li>
+          <li> <u>Wins</u>: Number of wins in professional MMA bouts</li>
+          <li> <u>Losses</u>: Number of losses in professional MMA bouts</li>
+          <li> <u>Draws</u>: Number of draws in professional MMA bouts</li>
+          <li> <u>Height</u>: Height of an individual UFC fighter (inches)</li>
+          <li> <u>Weight</u>: Weight of an individual UFC fighter (pounds)</li>
+          <li> <u>Reach</u>: Reach of an individual UFC fighter (inches)</li>
+          <li> <u>Stance</u>: Stance of an individual UFC fighter</li>
+          <li> <u>DOB</u>: Date of birth of an individual UFC fighter</li>
+          <li> <u>SLpM</u>: Significant Strikes Landed per Minute</li>
+          <li> <u>StrAcc</u>: Significant Striking Accuracy (percent)</li>
+          <li> <u>SApM</u>: Significant Strikes Absorbed per Minute</li>
+          <li> <u>StrDef</u>: Significant Strike Defence (the % of opponents strikes that did not land)</li>
+          <li> <u>TDAvg</u>: Average Takedowns Landed per 15 minutes</li>
+          <li> <u>TDAcc</u>: Takedown Accuracy (percent)</li>
+          <li> <u>TDDef</u>: Takedown Defense (the % of opponents TD attempts that did not land)</li>
+          <li> <u>SubAvg</u>: Average Submissions Attempted per 15 minutes</li>
+          <li> <u>Classification</u>: Classifies a fighter based on their style. There are 5 possible styles: Heavy Striking, Light Striking, Balanced, Light Grappling, and 
+            Heavy Grappling. The words “heavy” and “light” refers to the quantity of attributes. For example, a fighter with a Heavy Striking style much more often strikes than grapples.</li>
+        </ul>
+    </main>
+{% endblock %}

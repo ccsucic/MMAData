@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <main>
+        <header>
+            <h1 class="jumbotron text-center">UFC Fighter Database</h1>
+        </header>
+        <h2></h2>
+        <h2>Full Database</h2>
+        {% for table in table %} 
+        {{ table|safe }} 
+        {% endfor %}
+    </main>
+{% endblock %}
