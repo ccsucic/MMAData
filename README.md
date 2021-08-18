@@ -9,8 +9,8 @@ keeps data on each fighter. For each fighter, you have statistics such as strike
 strike accuracy, takedown accuracy, etc. I scraped and stored each fighter with these statistics,
 but I also made my own statistic called classification.
 
-This projects extracts data using a web scraper, transforms the data using Python
-libraries, and loads the data into an SQLite database that is available for download on a Flask web app.
+This projects extracts data using a web scraper made with Scrapy, transforms the data using Python
+libraries such as Pandas, and loads the data into an SQLite database that is available for download on a Flask web app.
 
 # Future Work
 
