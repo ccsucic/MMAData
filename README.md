@@ -12,6 +12,14 @@ but I also made my own statistic called classification.
 This projects extracts data using a web scraper made with Scrapy, transforms the data using Python
 libraries such as Pandas, and loads the data into an SQLite database that is available for download on a Flask web app.
 
+Below, you will find a screenshot of the homepage of the Flask app. The page contains an explanation of the different
+variables present in the database. You will also find a screenshot of the full database within the Flask app.
+
+![Homepage Screenshot](/screenshots/UFCDBHome.png)
+
+![Full Database Screenshot](/screenshots/UFCDBFullDB.png)
+
+
 # Future Work
 
 In the future, the Flask web app could be set up on a webserver that is publicly available. That
