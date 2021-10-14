@@ -15,9 +15,9 @@ libraries such as Pandas, and loads the data into an SQLite database that is ava
 Below, you will find a screenshot of the homepage of the Flask app. The page contains an explanation of the different
 variables present in the database. You will also find a screenshot of the full database within the Flask app.
 
-![Homepage Screenshot](/screenshots/UFCDBHome.png)
+![Homepage Screenshot](/MMAData/screenshots/UFCDBHome.png)
 
-![Full Database Screenshot](/screenshots/UFCDBFullDB.png)
+![Full Database Screenshot](/MMAData/screenshots/UFCDBFullDB.png)
 
 
 # Future Work
